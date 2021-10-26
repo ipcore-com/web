@@ -1,2 +1,1 @@
-# web
-IPCore Website
+# ipcore-landing
