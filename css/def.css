@@ -19,13 +19,8 @@
 		linear-gradient(to top left, lime, transparent),
 		linear-gradient(to top right, blue, transparent);
 	background-blend-mode: screen;
-
-	/*-webkit-animation: Gradient 20s ease infinite;
-	-moz-animation: Gradient 20s ease infinite;
-	animation: Gradient 20s ease infinite;*/
-
-	width: 5rem;
-	height: 31px;
+    width: 10rem;
+    height: 60px;
 }
 
 
@@ -88,8 +83,8 @@
 	top: 0%;
 	right: 0%;
 	bottom: 0%;
-	width: 5rem;
-	height: 31px;
+    width: 10rem;
+    height: 60px;
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -109,8 +104,8 @@
     top: 0%;
     right: 0%;
     bottom: 0%;
-    width: 5rem;
-    height: 35px;
+    width: 10rem;
+    height: 60px;
     background-image: url(../image/logo-white.png);
     background-position: top;
     background-repeat: no-repeat;
