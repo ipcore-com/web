@@ -1838,3 +1838,35 @@ p.bold-text {
 .slick-slider, .slick-track, .slick-list  {
     height: 100%;
 }
+
+
+  
+  .log {
+    background: #ccc;
+    font-size: 14px;
+    font-family: 'courier new';
+    line-height: 18px;
+    color: #888;
+    position: fixed;
+    padding: 5px;
+    top: calc(100vh - 35px);
+    left: calc(100vw - 122px);
+    height: 20px;
+    width: 90px;
+  }
+  
+  .parallax {
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+  }
+  
+
+  .parallax__mountain {
+    background-image: url(/image/bg-secundario.jpeg);
+  }
+
+  .content {
+    height: 200vh;
+  }
