@@ -110,7 +110,7 @@
     right: 0%;
     bottom: 0%;
     width: 5rem;
-    height: 31px;
+    height: 35px;
     background-image: url(../image/logo-white.png);
     background-position: top;
     background-repeat: no-repeat;
@@ -164,15 +164,4 @@
 
 .h-100vh{
 	height: 90vh;
-}
-
-img{
-	
-	position: absolute;
-    left: -9999px;
-    right: -9999px;
-    margin: auto;
-	height: 80vh;
-	
-	top:75px;
 }

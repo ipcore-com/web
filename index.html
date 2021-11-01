@@ -14,13 +14,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link href="http://fonts.cdnfonts.com/css/myriad-pro" rel="stylesheet">
     <link rel="stylesheet" href="css/def.css">
 </head>
 
 <body>
     <div class="container-fluid">
-
 
         <header>
             <nav class="navbar navbar-light custom-navbar">
@@ -111,8 +109,9 @@
                                 son algunas de las características generales de las soluciones que
                                 ofrecemos:
                             </p>
+                            <br>
 
-                            <p>
+                            <p class="bold-text">
                                 - Bastidores de 42U (60cm x 100cm, 80cm x 100cm) <br>
                                 - Medio bastidor, Bastidor completo, o Cubo Privado. <br>
                                 - Sistema de cerramiento de pasillo frío. <br>
@@ -122,6 +121,8 @@
                                 - Alta disponibilidad (N +1). <br>
                             </p>
 
+                            <br>
+
                             <h4>Garantia de servicio</h4>
                             <p class="text-cursive">
                                 " IPCore permite a la empresa optimizar sus operaciones de manera
@@ -129,7 +130,7 @@
                                 conexión eléctrica de manera exible y económica."
                             </p>
                         </div>
-                        <div>
+                        <div class="imgBg-services-wrap">
                             <div class="imgBg-services"></div>
                         </div>
                     </div>
@@ -142,7 +143,9 @@
                                 Características generales de nuestros servicios de recuperación ante desastres:
                             </p>
 
-                            <p>
+                            <br>
+
+                            <p class="bold-text">
                                 - Situado en una de las zonas más seguras de Europa con respecto a desastres naturales e
                                 industriales. <br>
                                 - Situado en una de las zonas de España con menor peligro sísmico. <br>
@@ -156,13 +159,15 @@
                                 - Personal experto in situ 24x7x365 para manos remotas. <br>
                             </p>
 
+                            <br>
+
                             <p class="text-cursive">
                                 Consúltenos para obtener una solución a la medida de sus necesidades.
                             </p>
 
                         </div>
-                        <div>
-                            <div class="img_services-container_2"></div>
+                        <div class="imgBg-services-wrap">
+                            <div class="imgBg-services_2"></div>
                         </div>
                     </div>
 
@@ -174,7 +179,9 @@
                                 Características generales de nuestros servicios de virtualización:
                             </p>
 
-                            <p>
+                            <br>
+
+                            <p class="bold-text">
                                 - Puesta en marcha inmediata. <br>
                                 - Máxima escalabilidad. <br>
                                 - Opciones Multi-tenant y Single-tenant. <br>
@@ -184,13 +191,15 @@
                                 - Alta disponibilidad.<br>
                             </p>
 
+                            <br>
+
                             <p class="text-cursive">
                                 Consúltenos para obtener una solución a la medida de sus necesidades.
                             </p>
 
                         </div>
-                        <div>
-                            <div class="img_services-container_3"></div>
+                        <div class="imgBg-services-wrap">
+                            <div class="imgBg-services_3"></div>
                         </div>
                     </div>
 
@@ -280,7 +289,9 @@
                     <div class="logo-grid">
                         <img src="image/logo-black.png" alt="logo">
                     </div>
-                    <p>All rights reserved 2021</p>
+                    <div class="text-grid">
+                        <p>All rights reserved 2021</p>
+                    </div>
                     <div class="social-grid">
                         <p><img class="social-icon" src="image/linked_icon.png" alt="LinkedIn"></p>
                         <p><img class="social-icon" src="image/facebook_icon.png" alt="Facebook"></p>
@@ -291,7 +302,7 @@
                     <div>
                         <p>+595 21 123456 | +595 971 123456 <i class="custom_icon-style bi bi-telephone-fill"></i></p>
                         <p>info@ipcore.com <i class="custom_icon-style bi bi-envelope-fill"></i></p>
-                        <p>IPCore Datacenter SL Calle Marzo 16 28022, Madrid España <iclass="custom_icon-style bi bi-geo-alt-fill"></i></p>
+                        <p>IPCore Datacenter SL Calle Marzo 16 28022, Madrid España <i class="custom_icon-style bi bi-geo-alt-fill"></i></p>
                     </div>
                 </div>
             </div>
@@ -305,9 +316,11 @@
     <script>
         $(document).ready(function () {
             $('.slide_container').slick({
+                dots: true,
                 infinite: true,
-                slidesToShow: 1,
-                slidesToScroll: 1
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
             });
 
             $('.your-class').slick({

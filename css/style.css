@@ -1,49 +1,95 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Myriad Pro'), url('../fonts/MYRIADPRO-REGULAR.woff') format('woff');
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Myriad Pro'), url('../fonts/MYRIADPRO-COND.woff') format('woff');
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Myriad Pro'), url('../fonts/MYRIADPRO-CONDIT.woff') format('woff');
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Myriad Pro'), url('../fonts/MyriadPro-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Myriad Pro'), url('../fonts/MYRIADPRO-SEMIBOLD.woff') format('woff');
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    font-style: italic;
+    font-weight: 600;
+    src: local('Myriad Pro'), url('../fonts/MYRIADPRO-SEMIBOLDIT.woff') format('woff');
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Myriad Pro'), url('../fonts/MYRIADPRO-BOLDCOND.woff') format('woff');
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Myriad Pro'), url('../fonts/MYRIADPRO-BOLD.woff') format('woff');
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Myriad Pro'), url('../fonts/MYRIADPRO-BOLDIT.woff') format('woff');
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Myriad Pro'), url('../fonts/MYRIADPRO-BOLDCONDIT.woff') format('woff');
+}
+
 .imgBg {
     width: 100%;
-    background-image: url(/image/alimentacion.jpg);
-    background-size: contain;
-    height: 320px;
+    background-image: url(/image/UPS-grande.jpeg);
+    height: 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
-    background-size: auto;
+    background-size: cover;
     background-color: #000;
     text-align: center;
     background-position: top;
 }
 
-.imgBg-services {
-    background-image: url(/image/alojamiento.jpg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 55%;
-    height: 90%;
-    background-color: black;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border-radius: 3%;
-    background-repeat: no-repeat;
-    background-position: left;
-}
+
 
 .imgBg2 {
-    width: 100%;
-    background-image: url(/image/generacion-electrica.jpg);
-    background-size: contain;
-    height: 320px;
+    background-image: url(/image/generador-grande.jpeg);
+    height: 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
-    background-size: auto;
+    background-size: cover;
     background-color: #000;
     text-align: center;
     background-position: top;
 }
+
 
 .imgBg3 {
     width: 100%;
     background-image: url(/image/espacio.jpg);
     background-size: contain;
-    height: 320px;
+    height: 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
     background-size: auto;
@@ -56,7 +102,7 @@
     width: 100%;
     background-image: url(/image/refrigeracion.jpg);
     background-size: contain;
-    height: 320px;
+    height: 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
     background-size: auto;
@@ -67,7 +113,7 @@
 
 
 .bg-text {
-    margin: 100px auto;
+    margin: 18% auto;
 }
 
 /* menu hambuguesa style */
@@ -209,7 +255,7 @@ body {
 }
 
 .custom-link {
-    font-size: 15px;
+    font-size: 14px;
     display: flex;
     justify-content: center;
 }
@@ -234,8 +280,8 @@ body {
 }
 
 .main-bg {
-    background-image: url(/image/1.jpg);
-    height: 70vh;
+    background-image: url(/image/bg-general.jpeg);
+    height: 90vh;
     background-color: #1a1a1a;
     background-attachment: fixed;
     background-position: center;
@@ -244,16 +290,16 @@ body {
 }
 
 .main-container {
-    margin-left: 10rem;
+    margin-left: 10%;
 }
 
 .main-container h2 {
-    font-size: 30px;
+    font-size: 70.6248px;
     font-weight: 600;
 }
 
 .main-container p {
-    font-size: 10px;
+    font-size: 24.1957px;
     font-weight: 600;
 }
 
@@ -282,7 +328,7 @@ body {
 }
 
 .footer-bg {
-    height: 30vh;
+    height: 31vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100px;
@@ -293,7 +339,6 @@ body {
     text-align: center;
     vertical-align: middle;
     height: inherit;
-    padding-top: 3rem;
 }
 
 .services-one {
@@ -315,34 +360,43 @@ body {
 
 .services_text-container {
     text-align: initial;
-    width: 51%;
+    width: 50%;
     justify-content: center;
     align-items: center;
-    margin-left: 15rem;
-    margin-top: 1rem;
+    margin: 7% 0% 0% 40%;
     color: #000;
 }
 
 .services_text-container span {
-    font-size: 12px;
+    font-size: 21.9934px;
     font-weight: 600;
 }
 
 .services_text-container h2 {
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 56.7525px;
+    font-weight: bold;
     line-height: 1;
+    letter-spacing: -5px;
 }
 
 .services_text-container h4 {
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: bold;
     font-style: italic;
 }
 
 .services_text-container p {
-    font-size: 12px;
-    line-height: 13px;
+    font-size: 18.6247px;
+    line-height: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+p.bold-text {
+    font-size: 14.3985px;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: 0px;
 }
 
 .text-cursive {
@@ -350,52 +404,6 @@ body {
     font-style: italic;
 }
 
-.img_services-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 85%;
-    height: 18rem;
-    background-color: black;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border-radius: 3%;
-    background-image: url(/image/alojamiento.jpg);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.img_services-container_2 {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 55%;
-    height: 18rem;
-    background-color: black;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border-radius: 3%;
-    background-image: url(/image/recuperar.jpg);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.img_services-container_3 {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 55%;
-    height: 18rem;
-    background-color: black;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border-radius: 3%;
-    background-image: url(/image/virtualizacion.jpg);
-    background-repeat: no-repeat;
-    background-position: left;
-}
 
 .slick-prev {
     position: absolute;
@@ -442,7 +450,7 @@ body {
 .data_center-one {
     display: flex;
     justify-content: flex-end;
-    margin-right: 15px;
+    margin-right: 5%;
 }
 
 .data_center-two {
@@ -453,23 +461,25 @@ body {
 
 .data_center-text-container {
     text-align: initial;
-    width: 23rem;
+    width: 100%;
     margin-top: 3rem;
 }
 
 .data_center-text-container span {
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 21.9934px;
+    font-weight: bold;
 }
 
 .data_center-text-container h2 {
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 354.703%;
+    font-weight: bold;
+    line-height: 0.9;
+    letter-spacing: -5px;
 }
 
 .data_center-text-container p {
-    font-size: 10px;
-    line-height: 13px;
+    font-size: 18.6247px;
+    width: 50%;
 }
  
 
@@ -481,7 +491,7 @@ body {
     align-items: center;
     margin-top: 2rem;
     border-radius: 3%;
-    width: 90%;
+    width: 70%;
     background-image: url(/image/marzo16.jpg);
     background-size: contain;
 }
@@ -591,14 +601,17 @@ body {
 }
 
 .bg-text h4 {
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 56.7525px;
+    font-weight: bold;
     margin-bottom: -5px;
+    letter-spacing: -5px;
+    line-height: 1;
 }
 
 .bg-text span {
-    font-size: 9px;
+    font-size: 20px;
     font-weight: 600;
+    letter-spacing: -1px;
 }
 
 .arrow-left {
@@ -701,9 +714,8 @@ body {
 
 .footer_container-one {
     display: grid;
-    justify-content: left;
-    align-items: center;
-    margin-left: 9rem;
+    margin-right: 15%;
+    margin-top: 5%;
 }
 
 .footer_container-two {
@@ -714,41 +726,45 @@ body {
 
 .footer_container-two p {
     text-align: end;
-    font-size: 10px;
+    font-size: 18px;
 }
 
 .footer_container-one img {
-    background: #fff;
-    width: 7rem;
-    position: inherit;
-    left: auto;
-    right: auto;
-    margin: auto;
-    height: auto;
-    top: auto;
+    width: 25%;
+    display: flex;
+    background-color: #fff;
 }
 
 .footer_container-one .social-grid .social-icon {
-    width: 15px;
-    height: 15px;
+    width: 35px;
+    height: 35px;
+    margin: 7px;
 }
 
 
 .footer_container-one p {
-    font-size: 12px;
-    margin: 0px 0px 50px 0px;
+    font-size: 22px;
+    line-height: 1;
+    letter-spacing: 3px;
+}
+
+.text-grid {
+    display: grid;
+    justify-content: initial;
 }
 
 .footer-grid .logo-grid {
     display: grid;
-    justify-content: flex-start;
+    justify-content: right;
     margin: 30px 0px 0px 0px;
 }
 
 .footer_container-one .social-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: -30px 0px 0px 0px;
+    display: flex;
+    margin: 0px 0px 0px -25px;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .social-grid p {
@@ -756,9 +772,10 @@ body {
     background: #fff;
     color: #000;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    line-height: 20px;
+    width: 50px;
+    height: 50px;
+    /* line-height: 20px; */
+    margin: 10px;
 }
 
 .custom_icon-style {
@@ -1501,8 +1518,10 @@ body {
     }
 
     .services_text-container p {
-        font-size: 22px;
-        line-height: 1.5;
+        font-size: 18.6247px;
+        line-height: 20px;
+        font-weight: normal;
+        letter-spacing: 1px;
     }
 
     .services-two {
@@ -1692,17 +1711,62 @@ body {
 
 .services-grid .slick-next {
     position: absolute;
-    right: 74%;
-    top: 95%;
+    right: 72%;
+    top: 85%;
     margin-right: 30px;
 }
 
 .services-grid .slick-prev {
     position: absolute;
-    left: 15%;
-    top: 95%;
+    left: 20%;
+    top: 85%;
     margin-left: 30px;
     z-index: 9;
+}
+
+.imgBg-services {
+    background-image: url(/image/alojamiento.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 80%;
+    background-color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 3%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.imgBg-services_2 {
+    background-image: url(/image/recuperar.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 80%;
+    background-color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 3%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.imgBg-services_3 {
+    background-image: url(/image/virtualizacion.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 80%;
+    background-color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 3%;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 
@@ -1765,4 +1829,12 @@ body {
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.slick-dots {
+    display: none!important;
+}
+
+.slick-slider, .slick-track, .slick-list  {
+    height: 100%;
 }
